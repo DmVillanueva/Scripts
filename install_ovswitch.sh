@@ -14,7 +14,7 @@ sudo apt-get install automake
 echo instalando python
 sudo apt-get install python
 echo instalando build
-sudo apt-get isntall build-essential
+sudo apt-get install build-essential
 echo actualizando el S.O 
 sudo apt-get update
 echo instalando actualizaciones
