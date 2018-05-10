@@ -29,7 +29,7 @@ cd openvswitch-1.7.0/
 echo instalando lib-ssl, cambiar por version de ubuntu si da error
 sudo apt-get install libssl-dev iproute2 tcpdump linux-headers-4.15.0-20-generic
 echo compilando e instalando openvswitch
-./boot
+./boot.sh
 ./configure
 ./configure --with-linux=/lib/modules/4.15.0-20-generic/build
 sudo make
