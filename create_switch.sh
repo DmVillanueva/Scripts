@@ -6,6 +6,8 @@ ovs-vsctl add-port br0 ens39
 ovs-vsctl add-port br0 ens40
 ovs-vsctl add-port br0 ens41
 ovs-vsctl add-port br0 ens42
+ovs-vsctl add-port br0 ens43
+ovs-vsctl set-controller br0 192.168.4.1:6633
 echo switch creado:
 echo script creado por 
 echo -------------------------------------------------
